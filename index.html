@@ -3,6 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- owl css files -->
+	<link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
+	<!-- Responsivity file -->
+	<link rel="stylesheet" href="./css/responsive.css">
+
 	<link rel="stylesheet" href="css/style.css">
 	<title>Netflix</title>
 </head>
@@ -12,7 +18,7 @@
 			<h2 class="logo">NETFLIX</h2>
 			<nav>
 				<a href="#"> Home </a>
-				<a href="#"> TV Shows </a>k
+				<a href="#"> TV Shows </a>
 				<a href="#"> Movies </a>
 				<a href="#"> New & Popular </a>
 				<a href="#"> My List </a>
@@ -27,14 +33,38 @@
                 <p class="description">Description</p>
                 <div class="buttons">
                     <button role="button" class="button">
-                        Play
+						<i class="fas fa-play"></i>
+						Play
                     </button>
                     <button role="button" class="button">
-                        More Information
+						<i class="fas fa-info-circle"></i>
+						More Information
                     </button>
                 </div>
             </div>
         </div>
-    </main>
+	</main>
+
+	<section class="carousel-movies">
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<img class="movie-box" src="./assets/img/mini1.jpg" alt="The Umbrella Academy">
+			</div>
+			<div class="item"><img src="./assets/img/mini2.jpg" alt="star wars: the rise of skywalker" class="movie-box"></div>
+			<div class="item"><img src="./assets/img/mini3.jpg" alt="Pokemon" class="movie-box"></div>
+			<div class="item"><img src="./assets/img/mini4.jpg" alt="Captain America: Civil War" class="movie-box"></div>
+			<div class="item"><img src="./assets/img/mini5.jpg" alt="The Hobbit: The Battle of The Five Armies" class="movie-box"></div>
+			<div class="item"><img src="./assets/img/mini6.jpg" alt="Breaking Bad" class="movie-box"></div>
+			<div class="item"><img src="./assets/img/mini7.jpg" alt="Dr. House" class="movie-box"></div>
+			<div class="item"><img src="./assets/img/mini8.jpg" alt="Supernatural" class="movie-box"></div>
+			<div class="item"><img src="./assets/img/mini9.jpg" alt="Smallville" class="movie-box"></div>
+			<div class="item"><img src="./assets/img/mini10.jpg" alt="Avengers: Infinity War" class="movie-box"></div>
+		</div>
+	</section>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
 </body>
 </html>
