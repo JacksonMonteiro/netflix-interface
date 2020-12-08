@@ -8,4 +8,63 @@
 	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
+	font-size: 14px;
 }
+
+/*elementos base*/
+body{
+	background: var(--black);
+	font-family: 'Arial', sans-serif;
+	color:#FFF;
+ }
+ 
+ 
+ header .container{
+	 display:flex;
+	 flex-direction: row;
+	 align-items: center;
+	 
+ }
+ 
+ header .logo{
+	 margin-left: 5px;
+	 color: var(--red);
+	 font-family: 'Arial Black', sans-serif;
+	 font-size:32px;
+	 margin: 10px 25px;
+ }
+ 
+ header nav a{
+	 text-decoration:none;
+	 color:#AAA;
+	 margin-right: 10px;
+ }
+ 
+ 
+ header nav a:hover{
+	 color:#fff;
+ }
+ 
+ /*main*/
+ .main-movie{
+	 background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../assets/img/capa-house.jpg') no-repeat;
+	 height:90vh;
+	 background-size:cover; 
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: flex-start;
+ }
+ 
+ 
+ .main-movie .description{
+	 margin-top: 10px;
+	 margin-bottom: 40px;
+ }
+ 
+ 
+ .main-movie .title{
+	 margin-top: 15%;
+	 font-size: 40px;
+	 font-family: 'Trebuchet MS', Arial, sans-serif;
+ }
